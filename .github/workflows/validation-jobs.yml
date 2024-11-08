@@ -68,7 +68,7 @@ jobs:
       - name: Build
         # this uses the same command as when running the example to ensure build is reused
         run: |
-          CI_TESTING_CONFIG=.github/example-run/all_tuples.ron cargo build --example all_tuples
+          CI_TESTING_CONFIG=.github/example-run/TEMPLATE_EXAMPLE_NAME.ron cargo build --example TEMPLATE_EXAMPLE_NAME
       - name: Run examples
         run: |
           for example in .github/example-run/*.ron; do
@@ -95,7 +95,7 @@ jobs:
         shell: bash
         # this uses the same command as when running the example to ensure build is reused
         run: |
-          CI_TESTING_CONFIG=.github/example-run/all_tuples.ron cargo build --example all_tuples
+          CI_TESTING_CONFIG=.github/example-run/TEMPLATE_EXAMPLE_NAME.ron cargo build --example TEMPLATE_EXAMPLE_NAME
       - name: Run examples
         shell: bash
         run: |
