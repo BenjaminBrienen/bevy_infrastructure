@@ -1,16 +1,16 @@
 [package]
-name = "CRATE_NAME"
+name = "TEMPLATE_CRATE_NAME"
 version = "1.0.0"
 edition = "2021"
 description = "Implement things as if rust had variadics"
-homepage = "https://github.com/bevyengine/CRATE_NAME"
-repository = "https://github.com/bevyengine/CRATE_NAME"
+homepage = "https://github.com/bevyengine/TEMPLATE_CRATE_NAME"
+repository = "https://github.com/bevyengine/TEMPLATE_CRATE_NAME"
 license = "MIT OR Apache-2.0"
 keywords = ["bevy", "variadics", "docs"]
 rust-version = "1.81.0"
 categories = ["macros", "utilities"]
 exclude = ["tools/", ".github/"]
-documentation = "https://docs.rs/CRATE_NAME"
+documentation = "https://docs.rs/TEMPLATE_CRATE_NAME"
 
 [features]
 default = ["alloc"]
