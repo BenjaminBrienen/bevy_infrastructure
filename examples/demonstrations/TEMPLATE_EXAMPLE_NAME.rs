@@ -1,3 +1,6 @@
 use template_crate_name::*;
 
-fn main() {}
+fn main() {
+    let x = Placeholder;
+    dbg!(x);
+}
