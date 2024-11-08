@@ -306,7 +306,7 @@ jobs:
       - name: Get minimum supported rust version
         id: msrv
         run: |
-          msrv=`cargo metadata --no-deps --format-version 1 | jq --raw-output '.packages[] | select(.name=="TEMPLATE_CRATE_NAME") | .rust_version'`
+          msrv=`cargo metadata --no-deps --format-version 1 | jq --raw-output '.packages[] | select(.name=="template_crate_name") | .rust_version'`
           echo "msrv=$msrv" >> $GITHUB_OUTPUT
       - uses: dtolnay/rust-toolchain@master
         with:

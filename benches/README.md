@@ -8,19 +8,19 @@ This is a crate with a collection of benchmarks, separate from the rest of the c
 2. `cd` into the `benches` directory (where this README is located).
 
     ```sh
-    TEMPLATE_CRATE_NAME $ cd benches
+    template_crate_name $ cd benches
     ```
 
 3. Run the benchmarks with cargo (This will take a while)
 
     ```sh
-    TEMPLATE_CRATE_NAME/benches $ cargo bench
+    template_crate_name/benches $ cargo bench
     ```
 
     If you'd like to only compile the benchmarks (without running them), you can do that like this:
 
     ```sh
-    TEMPLATE_CRATE_NAME/benches $ cargo bench --no-run
+    template_crate_name/benches $ cargo bench --no-run
     ```
 
 ## Criterion

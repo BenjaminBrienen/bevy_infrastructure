@@ -9,7 +9,7 @@ env:
 
 jobs:
   ci:
-    if: github.repository == 'bevyengine/TEMPLATE_CRATE_NAME'
+    if: github.repository == 'bevyengine/template_crate_name'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

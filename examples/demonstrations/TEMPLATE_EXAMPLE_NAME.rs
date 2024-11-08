@@ -1,3 +1,3 @@
-use TEMPLATE_CRATE_NAME::*;
+use template_crate_name::*;
 
 fn main() {}
